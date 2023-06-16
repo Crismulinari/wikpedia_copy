@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,26 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header id="start">
         <figure>
-            <img src="images/wikipedia.png" alt="">
+            <img src="images/wikipedia.png" alt="Imagem do mundo com as pesquisas da Wikpédia-Copy">
             <figcaption>
                 <h1>Wikipédia-Copy</h1>
                 <p>A enciclopédia livre</p>
             </figcaption>
         </figure>
+        <form action="">  
+            <label for="">procura:</label>          
+            <input type="search" alt="campo de busca para conteúdos do site">
+            <button>search</button>
+        </form>
     </header>
     <main>
         <nav>
+            <h1>Filmes de ficção</h1>
             <ul>
-                <li><a href="">Star Wars</a></li>
-                <li><a href="">História</a></li>
-                <li><a href="">Personagens</a></li>
+                <li><a href="index.html">Star Wars</a></li>
+                <li><a href="other1.html">Game of Trones</a></li>
+                <li><a href="other2.html">DC</a></li>
             </ul>
         </nav>
         <section>
-            <h1>Star Wars</h1>
-            <h3>A franquia</h3>
+            <h1>Tudo sobre Star Wars</h1>
+            <h2 id="introduction">Star Wars</h2>
+            <a href="#start">voltar</a>
                 <p>
                 Star Wars (Brasil: Guerra nas Estrelas) é uma franquia do tipo space opera estadunidense criada pelo cineasta George Lucas, que conta com uma série de nove filmes de fantasia científica e dois spin-offs. O primeiro filme foi lançado apenas com o título Star Wars, em 25 de maio de 1977, e tornou-se um fenômeno mundial inesperado de cultura popular, sendo responsável pelo início da "era dos blockbusters", que são superproduções cinematográficas que fazem sucesso nas bilheterias e viram franquias com brinquedos, jogos, livros etc. Foi seguido por duas sequências, The Empire Strikes Back e Return of the Jedi, lançadas com intervalos de três anos, formando a trilogia original, que segue o trio icônico formado por Luke Skywalker, Han Solo e Princesa Leia, que luta pela Aliança Rebelde para derrubar o tirano Império Galáctico; paralelamente ocorre a jornada de Luke para se tornar um cavaleiro Jedi e a luta contra Darth Vader, um ex-Jedi que sucumbiu ao Lado Sombrio da Força e ao Imperador.<br />    
 
@@ -37,7 +44,8 @@
                 O antigo universo expandido foi construído de modo não-canônico pela Lucasfilm em 2014, e seu material agora é lançado na Disney com o selo Legends, que tenta organizar o universo expandido, que contêm histórias contraditórias. Levando em consideração a nova trilogia, que conta uma história diferente do antigo canônico, a Disney considerou apenas os sete filmes e a série Clone Wars como canônico. O novo universo expandido entrou em vigor em 2014, com o primeiro produto oficial de Star Wars após a compra pela Disney, o Star Wars Rebels. Diferente do Legends, as histórias do novo universo expandido são supervisionadas pela Lucasfilm Story Group, fundado pela Kathleen Kennedy (presidente da Lucasfilm) com objetivo de manter a continuidade entre todos os produtos (filmes, livros, séries, quadrinhos e jogos) da franquia.
 
                 </p>
-                <h3>História</h3>
+                <h2 id="history">História</h2>
+                <a href="#start">voltar</a>
                 <p>
                     A série teve início com o simples título Star Wars, escrito e dirigido por George Lucas, lançado em 25 de maio de 1977. Na época da sua estreia se tornou a maior bilheteria de todos os tempos, arrecadando US$ 775 398 007 milhões de dólares e ganhando sete prêmios no Óscar.<br />
 
@@ -68,13 +76,15 @@
                     Em 2005 George Lucas tinha anunciado o desenvolvimento do projeto de uma série de TV live-action (com atores reais) ambientada nos anos entre os Episódios III e IV, porém com enredo não focado nos personagens conhecidos, mas em situações de conflitos políticos entre planetas e contrabandistas. O projeto chegou a tal estágio que alguns roteiristas concluíram histórias para serem usadas nos novos episódios, porém em 2011 o produtor Rick McCallum declarou que o projeto seria engavetado aguardando uma melhor evolução da tecnologia, visando redução de custos. Com a aquisição da franquia pela Disney, o material da série live-action teria sido aproveitado em Star Wars Rebels. Em 2013, o diretor executivo da Disney, Bob Iger, confirmou o desenvolvimento de dois filmes antológicos dentro do universo expandido de Star Wars, com o primeiro deles, Rogue One, que estreou em 16 de dezembro de 2016. Diferente da saga principal, as antologias não se focam na família Skywalker.<br />
 
                 </p>
-                <figure>
+                <figure id="image">
                     <img src="images/Star_Wars_Logo.svg.png" alt="">
                 </figure>
+                <a href="#start">voltar</a>
                 <caption>
-                    <h3>Episódios em ordem de lançamento</h3>
+                    <h2>Episódios em ordem de lançamento</h2>
                 </caption>
-                <table sumary="Tabela dos episódios em ordem de lançamento com datas de estreia, os escritores, diretores, produtores, roteristas e histórias." cellspacing="0" cellpadding="5">
+                <a href="#start">voltar</a>
+                <table id="temporary" sumary="Tabela dos episódios em ordem de lançamento com datas de estreia, os escritores, diretores, produtores, roteristas e histórias." cellspacing="0" cellpadding="5">
                     <thead>
                         <tr>
                             <th>Filme</th>
@@ -190,11 +200,12 @@
         </section>
         <div>
             <ul>
-                <li>Star Wars</li>
-                <li>História</li>
-                <li>Personagens</li>
+                <a href="#introduction"><li>Star Wars</li></a>
+                <a href="#history"><li>História</li></a>
+                <a href="#image"><li>Imagem</li></a>
+                <a href="#temporary"><li>Ordem de lançamento</li></a>
             </ul> 
-            <iframe width="100%" height="40%" src="https://www.youtube.com/embed/4Phizo62ioA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
+            <iframe alt="Vídeo de explicação da história Star Wars" width="100%" height="40%" src="https://www.youtube.com/embed/4Phizo62ioA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
         </div>
     </main>
     <footer>

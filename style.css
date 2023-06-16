@@ -11,9 +11,9 @@ header{
     background-color: white;
     border: solid 1px gray; 
     display: flex;
-    flex-direction: row;      
-    height: 20%;
-    width: 100%;
+    flex-direction: row; 
+    padding: 10px;   
+    height: 20%;   
     margin-bottom: 20px;
 }
 header figure{
@@ -29,20 +29,23 @@ header figure figcaption h1{
     padding: 0;
     
 }
+li{
+    list-style: none;
+}
 
 main{    
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 100%;    
+    width: 100%;    
     background-color: white;
     border: solid 1px gray; 
 }
 nav{    
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: 100%;
-    width: 100%;
+    width: 50%;
 }
 section{
     border: solid .1rem gray;
@@ -60,7 +63,7 @@ div{
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 100%;
+    width: 50%;
 }
 table{
     border: solid 1px rgb(190, 190, 201);
@@ -79,7 +82,5 @@ footer{
     background-color: white;   
     width: 100%;
     height: 100%;
-    padding: 0;
-    margin: 0;
     
 }
